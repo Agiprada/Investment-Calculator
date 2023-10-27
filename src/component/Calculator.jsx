@@ -26,7 +26,7 @@ function Calculator({ onChangeProps, userInput }) {
           <label>Expexted</label>
           <input
             type="number"
-            value={userInput.expextedReturn}
+            value={userInput.expectedReturn}
             onChange={(e) => onChangeProps("expextedReturn", e.target.value)}
           />
         </p>
